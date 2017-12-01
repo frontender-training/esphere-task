@@ -1,0 +1,218 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  min-width: 663px;
+  margin: 0 auto;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.visually-hidden {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 663px;
+}
+
+.clear {
+  clear: both;
+}
+
+.timelines {
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 10px;
+  color: #cacaca;
+  margin-bottom: 30px;
+}
+
+.timeline-item {
+  margin-bottom: 30px;
+}
+
+.timeline-item:last-of-type {
+  margin-bottom: 0;
+}
+
+.timeline-desc {
+  text-align: center;
+}
+
+.timeline-point {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  min-width: 210px;
+}
+
+.point-success,
+.point-progress {
+  color: #00a500;
+}
+
+.point-warning {
+  color: #ff961f;
+}
+
+.point-danger {
+  color: #ff3e3e;
+}
+
+.timeline-bar {
+  min-width: 437px;
+  margin: 0 auto;
+  padding: 0px 5px;
+}
+
+.tl-two-step {
+  padding: 0 calc(213px/2);
+}
+
+.bar {
+  width: 205px;
+  height: 2px;
+  background-color: #cacaca;
+  line-height: 7px;
+  margin-top: 2.5px;
+  float: left;
+}
+
+.circle {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: 1px solid #cacaca;
+  margin-left: 1px;
+  margin-right: 1px;
+  float: left;
+}
+
+.circle-progress {
+  border-color: #00a500;
+}
+
+.circle-success {
+  border: none;
+  background-color: #00a500;
+}
+
+.circle-warning {
+  border-color: #ff961f;
+}
+
+.circle-danger {
+  border: none;
+  background-color: #ff3e3e;
+}
+
+.bar-success {
+  background-color: #00a500;
+}
+
+.bar-danger {
+  background-color: #ff3e3e;
+}
+
+.bar-success-common {
+  background: linear-gradient(to right, #00a500 1%, #cacaca 60%, #cacaca 100%);
+}
+
+.bar-warning-common {
+  background: linear-gradient(to right, #ff961f 1%, #cacaca 60%, #cacaca 100%);
+}
+
+.bar-success-danger {
+  background: linear-gradient(to right, #00a500 55%, #ff3e3e 85%, #ff3e3e 100%);
+}
+
+.diagram {
+  width: 54px;
+  height: 54px;
+  overflow: hidden;
+  border-radius: 50%;
+  position: relative;
+  margin: auto;
+}
+
+.sector {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  transform-origin: left bottom;
+}
+
+.sector-ol-risk {
+  background-color: #ff3e3e;
+}
+
+.sector-finance {
+  background-color: #ff961f;
+  transform: rotate(90deg);
+}
+
+.sector-state {
+  transform: rotate(180deg);
+  background-color: #00a500;
+}
+
+.sector-business {
+  transform: rotate(270deg);
+  background-color: #00a500;
+}
+
+.diagram-info {
+  width: 100%;
+  margin: 0 auto;
+  font-size: 9px;
+  color: #000000;
+}
+
+.diagram-info td {
+  padding: 5px;
+  vertical-align: top;
+}
+
+.diagram-info .diagram-cell {
+  vertical-align: middle;
+}
+
+.diagram-info,
+.diagram-info td {
+  border-collapse: collapse;
+}
+
+.sector-title {
+  margin: 0;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.sector-title-red {
+  color: #ff3e3e;
+}
+
+.sector-title-orange {
+  color: #ff961f;
+}
+
+.sector-desc {
+  margin: 0;
+}
